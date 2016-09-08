@@ -1,0 +1,15 @@
+/*Before Insert trigger, version 3*/
+
+SET TERM ^ ;
+
+CREATE TRIGGER WORKOUTENTRYID for WORKOUTENTRY
+ active before insert position 0
+AS
+BEGIN
+    if ((new.id is null) or (new.id = 0)) then
+  begin
+    new.id = gen_id( GEN_WORKOUTENTRY_ID, 1 );
+  end
+END^
+
+SET TERM ; ^

@@ -1,0 +1,46 @@
+.login-panel{
+    background-color: white;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.loginform{
+    margin-top: 20px;
+}
+
+.login-panel .description{
+    margin-top: -10px;
+}
+
+.login-panel button{
+    display: block;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.login-panel .error{
+
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+
+    font-size: 16px;
+
+    padding: 5px 10px 5px 10px;
+
+    border-radius: 6px;
+}
+
+.link-to-main-site{
+    display: block;
+    margin-top: 28px;
+    font-size: 22px;
+}
+
+.link-to-main-site:hover{
+    color: #cf9914;
+}
+
+.link-to-main-site:focus{
+    color: #cf9914;
+}

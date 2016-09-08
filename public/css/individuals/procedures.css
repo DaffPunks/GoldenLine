@@ -1,0 +1,25 @@
+.nav-pills-zl{
+    width: 100%;
+    text-align: center;
+}
+/*procedures*/
+
+.procedures-container{
+    padding: 0;
+}
+
+/*.cell-container{*/
+    /*padding: 0;*/
+/*}*/
+
+.header .time{
+    font-size: 28px;
+    height: 100%;
+    padding-top: 10px;
+}
+
+.content h5{
+    position: absolute;
+    bottom: 0;
+    font-size: 15px;
+}
